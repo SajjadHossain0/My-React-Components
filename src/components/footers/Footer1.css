@@ -1,0 +1,39 @@
+/* Ensures the footer sticks to the bottom of the page */
+.page-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrap {
+    flex: 1; /* Expands to take up available space, pushing the footer down */
+    padding: 20px;
+}
+
+.footer {
+    background-color: #1d39c4;
+    color: #fff;
+    padding: 20px 40px;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+}
+
+/* Layout for the main footer content */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+/* Left and right sections within the footer */
+.footer-left,
+.footer-right {
+    font-size: 14px;
+}
+
+/* Centered bottom text in the footer */
+.footer-bottom {
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 10px;
+}
