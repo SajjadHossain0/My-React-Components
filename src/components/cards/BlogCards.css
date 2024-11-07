@@ -1,0 +1,7 @@
+.blog-card-container{
+ background-color: #c1c1c1;
+}
+
+.blog-card:hover{
+    background-color: transparent;
+}
